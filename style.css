@@ -465,12 +465,12 @@ section .title::after {
     width: 80%;
 }
 
-.skills-content .right .php::before {
-    width: 50%;
+.skills-content .right .python::before {
+    width: 75%;
 }
 
-.skills-content .right .mysql::before {
-    width: 70%;
+.skills-content .right .C++::before {
+    width: 50%;
 }
 ::selection{
     color: #fff;
@@ -538,11 +538,14 @@ section .title::after {
   .bar .progress-line.javascript span{
     width: 85%;
   }
-  .bar .progress-line.python span{
-    width: 50%;
+  .bar ,.progress-line.aiogram span{
+      width: 85%;
   }
-  .bar .progress-line.c++ span{
+  .bar .progress-line.python span{
     width: 75%;
+  }
+  .bar .progress-line.C++ span{
+    width: 50%;
   }
   .progress-line span::before{
     position: absolute;
@@ -586,17 +589,17 @@ section .title::after {
     content: "85%";
   }
   .progress-line.python span::after{
-    content: "50%";
-  }
-  .progress-line.C++ span::after{
     content: "75%";
   }
+  .progress-line.C++ span::after{
+    content: "50%";
+  }
 
 
-/* teams section styling */
+/* works section styling */
 
 .works .title::after {
-    content: "who with me";
+    content: "what did i do";
 }
 
 .works .carousel .card {
